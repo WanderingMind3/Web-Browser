@@ -53,6 +53,6 @@ class MainWindow(QMainWindow):
 
 app = QApplication(sys.argv)
 QApplication.setApplicationName('My Browser')
-QApplication.setWindowIcon(QIcon('//home//abhishek//abhishek//game developement//image//blue-giant.png'))
+QApplication.setWindowIcon(QIcon('blue-giant.png'))
 window = MainWindow()
 app.exec_()
